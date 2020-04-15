@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".img_extra">
+
+
+    <ImageView
+        android:id="@+id/imgunderv5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/fi1" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttons"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:onClick="homewallpaper"
+        android:text="Set As Wallpaper"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+
+        android:textSize="30sp" />
+
+
+</FrameLayout>
